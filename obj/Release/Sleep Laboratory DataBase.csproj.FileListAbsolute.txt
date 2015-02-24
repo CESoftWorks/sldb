@@ -1,0 +1,44 @@
+C:\Users\CESoftWorks\Documents\Sleep Laboratory DataBase\Sleep Laboratory DataBase\bin\Release\Sleep Laboratory DataBase.exe.config
+C:\Users\CESoftWorks\Documents\Sleep Laboratory DataBase\Sleep Laboratory DataBase\bin\Release\adminpass.txt
+C:\Users\CESoftWorks\Documents\Sleep Laboratory DataBase\Sleep Laboratory DataBase\bin\Release\dbSLDataBase.mdf
+C:\Users\CESoftWorks\Documents\Sleep Laboratory DataBase\Sleep Laboratory DataBase\bin\Release\dbSLDataBase_log.ldf
+C:\Users\CESoftWorks\Documents\Sleep Laboratory DataBase\Sleep Laboratory DataBase\bin\Release\reportPatientSynoptic.rdlc
+C:\Users\CESoftWorks\Documents\Sleep Laboratory DataBase\Sleep Laboratory DataBase\bin\Release\HELP.pdf
+C:\Users\CESoftWorks\Documents\Sleep Laboratory DataBase\Sleep Laboratory DataBase\bin\Release\dbConnectionString.txt
+C:\Users\CESoftWorks\Documents\Sleep Laboratory DataBase\Sleep Laboratory DataBase\bin\Release\Sleep Laboratory DataBase.exe.manifest
+C:\Users\CESoftWorks\Documents\Sleep Laboratory DataBase\Sleep Laboratory DataBase\bin\Release\Sleep Laboratory DataBase.application
+C:\Users\CESoftWorks\Documents\Sleep Laboratory DataBase\Sleep Laboratory DataBase\bin\Release\Sleep Laboratory DataBase.exe
+C:\Users\CESoftWorks\Documents\Sleep Laboratory DataBase\Sleep Laboratory DataBase\bin\Release\Sleep Laboratory DataBase.pdb
+C:\Users\CESoftWorks\Documents\Sleep Laboratory DataBase\Sleep Laboratory DataBase\obj\Release\Sleep_Laboratory_DataBase.AboutBox.resources
+C:\Users\CESoftWorks\Documents\Sleep Laboratory DataBase\Sleep Laboratory DataBase\obj\Release\Sleep_Laboratory_DataBase.admChangeAdminPassword.resources
+C:\Users\CESoftWorks\Documents\Sleep Laboratory DataBase\Sleep Laboratory DataBase\obj\Release\Sleep_Laboratory_DataBase.AdminLogin.resources
+C:\Users\CESoftWorks\Documents\Sleep Laboratory DataBase\Sleep Laboratory DataBase\obj\Release\Sleep_Laboratory_DataBase.AdminMenu.resources
+C:\Users\CESoftWorks\Documents\Sleep Laboratory DataBase\Sleep Laboratory DataBase\obj\Release\Sleep_Laboratory_DataBase.adminSettings.resources
+C:\Users\CESoftWorks\Documents\Sleep Laboratory DataBase\Sleep Laboratory DataBase\obj\Release\Sleep_Laboratory_DataBase.adminViewAllData.resources
+C:\Users\CESoftWorks\Documents\Sleep Laboratory DataBase\Sleep Laboratory DataBase\obj\Release\Sleep_Laboratory_DataBase.EditPatientForm.resources
+C:\Users\CESoftWorks\Documents\Sleep Laboratory DataBase\Sleep Laboratory DataBase\obj\Release\Sleep_Laboratory_DataBase.MainMenuGeneric.resources
+C:\Users\CESoftWorks\Documents\Sleep Laboratory DataBase\Sleep Laboratory DataBase\obj\Release\Sleep_Laboratory_DataBase.NewAppointment.resources
+C:\Users\CESoftWorks\Documents\Sleep Laboratory DataBase\Sleep Laboratory DataBase\obj\Release\Sleep_Laboratory_DataBase.NewPatientForm.resources
+C:\Users\CESoftWorks\Documents\Sleep Laboratory DataBase\Sleep Laboratory DataBase\obj\Release\Sleep_Laboratory_DataBase.NewWaitingListEntrySelector.resources
+C:\Users\CESoftWorks\Documents\Sleep Laboratory DataBase\Sleep Laboratory DataBase\obj\Release\Sleep_Laboratory_DataBase.PatientArchive.resources
+C:\Users\CESoftWorks\Documents\Sleep Laboratory DataBase\Sleep Laboratory DataBase\obj\Release\Sleep_Laboratory_DataBase.PatientForm.resources
+C:\Users\CESoftWorks\Documents\Sleep Laboratory DataBase\Sleep Laboratory DataBase\obj\Release\Sleep_Laboratory_DataBase.PSGDetails.resources
+C:\Users\CESoftWorks\Documents\Sleep Laboratory DataBase\Sleep Laboratory DataBase\obj\Release\Sleep_Laboratory_DataBase.RecycleBin.resources
+C:\Users\CESoftWorks\Documents\Sleep Laboratory DataBase\Sleep Laboratory DataBase\obj\Release\Sleep_Laboratory_DataBase.RecycleBinSelector.resources
+C:\Users\CESoftWorks\Documents\Sleep Laboratory DataBase\Sleep Laboratory DataBase\obj\Release\Sleep_Laboratory_DataBase.repfMonthlyAppointmentsReport.resources
+C:\Users\CESoftWorks\Documents\Sleep Laboratory DataBase\Sleep Laboratory DataBase\obj\Release\Sleep_Laboratory_DataBase.repfPatientSynoptic.resources
+C:\Users\CESoftWorks\Documents\Sleep Laboratory DataBase\Sleep Laboratory DataBase\obj\Release\Sleep_Laboratory_DataBase.ReportSelector.resources
+C:\Users\CESoftWorks\Documents\Sleep Laboratory DataBase\Sleep Laboratory DataBase\obj\Release\Sleep_Laboratory_DataBase.Search.resources
+C:\Users\CESoftWorks\Documents\Sleep Laboratory DataBase\Sleep Laboratory DataBase\obj\Release\Sleep_Laboratory_DataBase.SetTestSlots.resources
+C:\Users\CESoftWorks\Documents\Sleep Laboratory DataBase\Sleep Laboratory DataBase\obj\Release\Sleep_Laboratory_DataBase.Startup.resources
+C:\Users\CESoftWorks\Documents\Sleep Laboratory DataBase\Sleep Laboratory DataBase\obj\Release\Sleep_Laboratory_DataBase.Properties.Resources.resources
+C:\Users\CESoftWorks\Documents\Sleep Laboratory DataBase\Sleep Laboratory DataBase\obj\Release\Sleep_Laboratory_DataBase.TestSlotSelector.resources
+C:\Users\CESoftWorks\Documents\Sleep Laboratory DataBase\Sleep Laboratory DataBase\obj\Release\Sleep_Laboratory_DataBase.UpcomingAppointments.resources
+C:\Users\CESoftWorks\Documents\Sleep Laboratory DataBase\Sleep Laboratory DataBase\obj\Release\Sleep_Laboratory_DataBase.WaitingListView.resources
+C:\Users\CESoftWorks\Documents\Sleep Laboratory DataBase\Sleep Laboratory DataBase\obj\Release\Sleep Laboratory DataBase.csproj.GenerateResource.Cache
+C:\Users\CESoftWorks\Documents\Sleep Laboratory DataBase\Sleep Laboratory DataBase\obj\Release\RdlCompile.cache
+C:\Users\CESoftWorks\Documents\Sleep Laboratory DataBase\Sleep Laboratory DataBase\obj\Release\RdlCompile.compiled
+C:\Users\CESoftWorks\Documents\Sleep Laboratory DataBase\Sleep Laboratory DataBase\obj\Release\Sleep Laboratory DataBase.exe.manifest
+C:\Users\CESoftWorks\Documents\Sleep Laboratory DataBase\Sleep Laboratory DataBase\obj\Release\Sleep Laboratory DataBase.application
+C:\Users\CESoftWorks\Documents\Sleep Laboratory DataBase\Sleep Laboratory DataBase\obj\Release\Sleep Laboratory DataBase.exe
+C:\Users\CESoftWorks\Documents\Sleep Laboratory DataBase\Sleep Laboratory DataBase\obj\Release\Sleep Laboratory DataBase.pdb

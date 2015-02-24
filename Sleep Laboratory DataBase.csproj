@@ -1,0 +1,429 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7CAD9503-5C76-4E27-A8E8-735767714116}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Sleep_Laboratory_DataBase</RootNamespace>
+    <AssemblyName>Sleep Laboratory DataBase</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\CESoftWorks\SleepLaboratoryDataBase\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>3</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>DC288484B3E7AEC4286EC265C38714F5FCB15126</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Sleep Laboratory DataBase_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Data.SqlServerCe, Version=4.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox.Designer.cs">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="admChangeAdminPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="admChangeAdminPassword.Designer.cs">
+      <DependentUpon>admChangeAdminPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminLogin.Designer.cs">
+      <DependentUpon>AdminLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminMenu.Designer.cs">
+      <DependentUpon>AdminMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="adminSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="adminSettings.Designer.cs">
+      <DependentUpon>adminSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="adminViewAllData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="adminViewAllData.Designer.cs">
+      <DependentUpon>adminViewAllData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Calculations.cs" />
+    <Compile Include="DataMethods.cs" />
+    <Compile Include="dbSLDataBaseDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbSLDataBaseDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbSLDataBaseSet.cs">
+      <DependentUpon>dbSLDataBaseSet.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="dbSLDataBaseSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbSLDataBaseSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EditPatientForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditPatientForm.Designer.cs">
+      <DependentUpon>EditPatientForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LINQRelatedClasses.cs" />
+    <Compile Include="MainMenuGeneric.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainMenuGeneric.Designer.cs">
+      <DependentUpon>MainMenuGeneric.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewAppointment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewAppointment.Designer.cs">
+      <DependentUpon>NewAppointment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewPatientForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewPatientForm.Designer.cs">
+      <DependentUpon>NewPatientForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewWaitingListEntrySelector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewWaitingListEntrySelector.Designer.cs">
+      <DependentUpon>NewWaitingListEntrySelector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PatientArchive.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PatientArchive.Designer.cs">
+      <DependentUpon>PatientArchive.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PatientForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PatientForm.Designer.cs">
+      <DependentUpon>PatientForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PSGDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PSGDetails.Designer.cs">
+      <DependentUpon>PSGDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RecycleBin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RecycleBin.Designer.cs">
+      <DependentUpon>RecycleBin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RecycleBinSelector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RecycleBinSelector.Designer.cs">
+      <DependentUpon>RecycleBinSelector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="repfMonthlyAppointmentsReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="repfMonthlyAppointmentsReport.Designer.cs">
+      <DependentUpon>repfMonthlyAppointmentsReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="repfPatientSynoptic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="repfPatientSynoptic.Designer.cs">
+      <DependentUpon>repfPatientSynoptic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportSelector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportSelector.Designer.cs">
+      <DependentUpon>ReportSelector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Search.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Search.Designer.cs">
+      <DependentUpon>Search.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SetTestSlots.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SetTestSlots.Designer.cs">
+      <DependentUpon>SetTestSlots.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Startup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Startup.Designer.cs">
+      <DependentUpon>Startup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TestSlotSelector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TestSlotSelector.Designer.cs">
+      <DependentUpon>TestSlotSelector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpcomingAppointments.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpcomingAppointments.Designer.cs">
+      <DependentUpon>UpcomingAppointments.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WaitingListView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WaitingListView.Designer.cs">
+      <DependentUpon>WaitingListView.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AboutBox.resx">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="admChangeAdminPassword.resx">
+      <DependentUpon>admChangeAdminPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminLogin.resx">
+      <DependentUpon>AdminLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminMenu.resx">
+      <DependentUpon>AdminMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adminSettings.resx">
+      <DependentUpon>adminSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adminViewAllData.resx">
+      <DependentUpon>adminViewAllData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditPatientForm.resx">
+      <DependentUpon>EditPatientForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainMenuGeneric.resx">
+      <DependentUpon>MainMenuGeneric.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewAppointment.resx">
+      <DependentUpon>NewAppointment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewPatientForm.resx">
+      <DependentUpon>NewPatientForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewWaitingListEntrySelector.resx">
+      <DependentUpon>NewWaitingListEntrySelector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PatientArchive.resx">
+      <DependentUpon>PatientArchive.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PatientForm.resx">
+      <DependentUpon>PatientForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PSGDetails.resx">
+      <DependentUpon>PSGDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RecycleBin.resx">
+      <DependentUpon>RecycleBin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RecycleBinSelector.resx">
+      <DependentUpon>RecycleBinSelector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="repfMonthlyAppointmentsReport.resx">
+      <DependentUpon>repfMonthlyAppointmentsReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="repfPatientSynoptic.resx">
+      <DependentUpon>repfPatientSynoptic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reportMonthlyAppointments.rdlc" />
+    <EmbeddedResource Include="reportPatientSynoptic.rdlc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportSelector.resx">
+      <DependentUpon>ReportSelector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Search.resx">
+      <DependentUpon>Search.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SetTestSlots.resx">
+      <DependentUpon>SetTestSlots.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Startup.resx">
+      <DependentUpon>Startup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="TestSlotSelector.resx">
+      <DependentUpon>TestSlotSelector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpcomingAppointments.resx">
+      <DependentUpon>UpcomingAppointments.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WaitingListView.resx">
+      <DependentUpon>WaitingListView.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="dbSLDataBaseDataSet.xsc">
+      <DependentUpon>dbSLDataBaseDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="dbSLDataBaseDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbSLDataBaseDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbSLDataBaseDataSet.xss">
+      <DependentUpon>dbSLDataBaseDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="dbSLDataBaseSet.xsc">
+      <DependentUpon>dbSLDataBaseSet.xsd</DependentUpon>
+    </None>
+    <None Include="dbSLDataBaseSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbSLDataBaseSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbSLDataBaseSet.xss">
+      <DependentUpon>dbSLDataBaseSet.xsd</DependentUpon>
+    </None>
+    <EmbeddedResource Include="HELP.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <None Include="Properties\DataSources\Appointment.datasource" />
+    <None Include="Properties\DataSources\Patient.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Sleep Laboratory DataBase_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="adminpass.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <EmbeddedResource Include="dbConnectionString.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <Content Include="dbSLDataBase.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="dbSLDataBase_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>dbSLDataBase.mdf</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.SQL.Server.Compact.4.0">
+      <Visible>False</Visible>
+      <ProductName>SQL Server Compact 4.0 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
